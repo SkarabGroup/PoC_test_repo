@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+
+\title{LaTeX Test File for CodeGuardian PoC}
+\author{Kevin}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This is a test file for the CodeGuardian Proof of Concept demonstrtion. It contanes various LaTeX functionalites and intentional speling errors for testing purpouses.
+
+\section{Mathematical Formulas}
+The quadratic formula is given by:
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+Some matrices and advanced calulations:
+\[
+A = \begin{pmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{pmatrix}
+\]
+
+\section{Code Snippets}
+\begin{lstlisting}[language=Python]
+def helo_world():
+    print("This is a test fucntion")
+    return True
+\end{lstlisting}
+
+\section{Text Formatting}
+This paragraph demonstrates \textbf{bold text}, \textit{italic text}, and \underline{underlined text}. We can also use \texttt{monospaced font} for code refferences.
+
+\subsection{Subsection Example}
+The CodeGuardian PoC aims to identyfy and corect various documention erors and anomalies in LaTeX documenets.
+
+\section{Conclusion}
+This test file sucessfully demonstrates the capabilitys of the testing framework. Futher developement will include aditional features and improvments.
+
+\end{document}
