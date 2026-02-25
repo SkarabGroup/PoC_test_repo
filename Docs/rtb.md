@@ -1,1 +1,1 @@
-thiss file is nottt ok
+this file is ok
